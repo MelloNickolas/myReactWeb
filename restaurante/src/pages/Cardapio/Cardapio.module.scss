@@ -1,6 +1,12 @@
 @import 'styles/variaveis';
 
-.menu{ padding: 20px $padding-horizontal;}
+.menu{ padding: 20px $padding-horizontal;
+    background-color: #480f13;
+}
+
+.img{ 
+    height: 150px;
+}
 
 .header{
     background-image: url('/assets/Cardapio/header.png');
@@ -18,3 +24,7 @@
         width: 40%;
     }
 }
+
+// #480f13
+
+// #ef3340
