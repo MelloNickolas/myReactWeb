@@ -1,5 +1,5 @@
 import styles from "./Cardapio.module.scss"
-import logo from "assets/logo.png"
+import logo from "../../assets/logo.png"
 import Buscador from '../Buscador/index';
 import { useState } from "react";
 
@@ -12,7 +12,7 @@ export default function Cardapio() {
            </nav>
         <header className={styles.header}>
             <div className={styles.header__text}>
-                "Catering the best restaurant in your country!"
+                "Nico Gostozuras the best restaurant in your country!"
             </div>
         </header>
         <section>
