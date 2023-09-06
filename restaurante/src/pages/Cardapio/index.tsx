@@ -15,8 +15,8 @@ export default function Cardapio() {
                 "Nico Gostozuras the best restaurant in your country!"
             </div>
         </header>
-        <section>
-            <h3>cardapio</h3>
+        <section className={styles.cardapio}>
+            <h3 className={styles.cardapio__titulo}>Cardápio</h3>
             <Buscador busca={busca} setBusca={setBusca} />
         </section>
        </main>
