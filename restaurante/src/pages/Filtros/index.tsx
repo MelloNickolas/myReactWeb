@@ -8,7 +8,7 @@ type IOpcao = typeof filtros[0];
     label: string;
 }*/
 
-export default function Filtros(opcao: IOpcao) {
+export default function Filtros() {
 
     return<>
     <div className={styles.filtro}>
